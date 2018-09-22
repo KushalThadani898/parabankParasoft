@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+	<!-- <test parallel="true" thread-count="5" name="LoginTests_firefox"
+		enabled="true">
+	 -->	
+<!-- 		<parameter name="browser" value="firefox" />
+			<parameter name="url" value="http://parabank.parasoft.com" />
+			
+		<classes>
+			<class
+				name="Framework.com.parabankParasoft.productParabank.TC.TC_login" />
+			<method>
+				<include name="tc_01_validate_parabank_login" />
+				<exclude name="tc_02_validate_parabank_login_with_wrong_username" />
+				<exclude name="tc_03_validate_parabank_login_with_blank_pasword" />
+				<exclude name="tc_04_validate_parabank_login_with_blank_username" />
+				<exclude name="tc_05_validate_parabank_login_with_wrong_password" />
+			</method>
+		</classes>
+	</test> Test
+ -->
+<!-- 	<test parallel="true" thread-count="5" name="Test" enabled="true">
+		
+		<parameter name="browser" value="chrome" />
+			<parameter name="url" value="http://parabank.parasoft.com" />
+		<classes>
+			<class
+				name="Framework.com.parabankParasoft.productParabank.TC.TC_login" />
+			<method>
+				<include name="tc_01_validate_parabank_login" />
+				<exclude
+					name="tc_02_validate_parabank_login_with_wrong_username" />
+				<exclude
+					name="tc_03_validate_parabank_login_with_blank_pasword" />
+				<exclude
+					name="tc_04_validate_parabank_login_with_blank_username" />
+				<exclude
+					name="tc_05_validate_parabank_login_with_wrong_password" />
+			</method>
+		</classes>
+	</test> Test
+ -->
+<!-- 	<test parallel="true" thread-count="5"
+		name="LoginTestsBasedOnGroups" enabled="true">
+		<groups>
+			<run>
+				<inlcude name="smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Framework.com.parabankParasoft.productParabank.TC.TC_login" />
+		</classes>
+	</test> Test
+ -->
+ 
+ 
+ <!-- ******************************************************************************************************************************************************************
+ ************************************************************************************************************************************************************************
+ **************************************************************8Transfer funds module ***********************************************************************************
+ ************************************************************************************************************************************************************************
+ ************************************************************************************************************************************************************************
+  -->
+ <test parallel="true" thread-count="1" name="LoginTests_firefox"
+		enabled="true">
+		
+		<parameter name="browser" value="firefox" />
+			<parameter name="url" value="http://parabank.parasoft.com" />
+			
+		<classes>
+			<class
+				name="Framework.com.parabankParasoft.productParabank.TC.TC_transferFunds" />
+			<method>
+				<include name="tranferFundMethod" />
+				
+			</method>
+		</classes>
+	</test> 
+ 
+</suite> <!-- Suite -->

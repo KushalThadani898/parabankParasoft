@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="G:/vision_IT/Material/eclipse-jee-photon-R-win32-x86_64/driver/selenium-server-standalone-3.13.0.jar"/>
+	<classpathentry kind="lib" path="E:/GIT_workspace_visionIT/drivers/logger_file/log4j-1.2-api-2.11.1.jar"/>
+	<classpathentry kind="lib" path="E:/GIT_workspace_visionIT/drivers/logger_file/log4j-api-2.3.jar"/>
+	<classpathentry kind="lib" path="E:/GIT_workspace_visionIT/drivers/logger_file/log4j-api-2.11.1.jar"/>
+	<classpathentry kind="lib" path="E:/GIT_workspace_visionIT/drivers/logger_file/log4j-core-2.3.jar"/>
+	<classpathentry kind="lib" path="E:/GIT_workspace_visionIT/drivers/logger_file/log4j-core-2.11.1.jar"/>
+	<classpathentry kind="lib" path="E:/GIT_workspace_visionIT/drivers/logger_file/log4j-to-slf4j-2.11.1.jar"/>
+	<classpathentry kind="lib" path="E:/GIT_workspace_visionIT/drivers/logger_file/log4j-to-slf4j-2.11.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/GIT_workspace_visionIT/drivers/logger_file/log4j-to-slf4j-2.11.1-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

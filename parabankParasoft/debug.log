@@ -1,0 +1,15 @@
+[0918/002450.041:ERROR:file_io_win.cc(161)] CreateFile C:\Users\kushal\AppData\Local\Temp\scoped_dir21684_16187\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0918/002450.040:ERROR:file_io_win.cc(161)] CreateFile C:\Users\kushal\AppData\Local\Temp\scoped_dir22476_15396\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0918/002450.040:ERROR:file_io_win.cc(161)] CreateFile C:\Users\kushal\AppData\Local\Temp\scoped_dir14456_28362\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0918/002450.041:ERROR:file_io_win.cc(161)] CreateFile C:\Users\kushal\AppData\Local\Temp\scoped_dir19560_2079\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0918/002450.041:ERROR:file_io_win.cc(161)] CreateFile C:\Users\kushal\AppData\Local\Temp\scoped_dir2884_18754\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0918/002451.318:ERROR:file_io_win.cc(170)] CreateFile C:\Users\kushal\AppData\Local\Temp\scoped_dir2884_18754\Crashpad\reports\81e97971-835a-48e4-b3e9-c1991be80bde.dmp: The system cannot find the path specified. (0x3)
+[0918/002451.318:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0918/002451.320:ERROR:file_io_win.cc(170)] CreateFile C:\Users\kushal\AppData\Local\Temp\scoped_dir22476_15396\Crashpad\reports\6696c199-104a-4de8-9847-e5ef3d920245.dmp: The system cannot find the path specified. (0x3)
+[0918/002451.320:ERROR:file_io_win.cc(170)] CreateFile C:\Users\kushal\AppData\Local\Temp\scoped_dir19560_2079\Crashpad\reports\650c78f7-fc5f-4f97-a87e-0c785f62ab72.dmp: The system cannot find the path specified. (0x3)
+[0918/002451.320:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0918/002451.320:ERROR:file_io_win.cc(170)] CreateFile C:\Users\kushal\AppData\Local\Temp\scoped_dir14456_28362\Crashpad\reports\e40b072a-7219-4bb8-9d03-1de20f429b10.dmp: The system cannot find the path specified. (0x3)
+[0918/002451.321:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0918/002451.327:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0918/002451.327:ERROR:file_io_win.cc(170)] CreateFile C:\Users\kushal\AppData\Local\Temp\scoped_dir21684_16187\Crashpad\reports\314135f2-63f0-4240-8563-ac74cbab1744.dmp: The system cannot find the path specified. (0x3)
+[0918/002451.328:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed

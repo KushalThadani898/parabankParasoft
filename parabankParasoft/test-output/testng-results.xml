@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[LogLevel:info LogType: pass Message: Browser Invoked. Type: firefox]]>
+    </line>
+    <line>
+      <![CDATA[LogLevel:info LogType: pass Message: Navigation to Url successfull : http://parabank.parasoft.com/parabank/index.htm]]>
+    </line>
+    <line>
+      <![CDATA[LogLevel:info LogType: pass Message: User name is set with user: john]]>
+    </line>
+    <line>
+      <![CDATA[LogLevel:info LogType: pass Message: Password is set with user: demo]]>
+    </line>
+    <line>
+      <![CDATA[LogLevel:info LogType: pass Message: Clicked on Login button]]>
+    </line>
+    <line>
+      <![CDATA[LogLevel:info LogType: pass Message: Login Successfull]]>
+    </line>
+    <line>
+      <![CDATA[LogLevel:info LogType: pass Message: Entered amount is successfully-: ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="76480" started-at="2018-09-22T05:06:31Z" finished-at="2018-09-22T05:07:47Z">
+    <groups>
+      <group name="regression">
+        <method signature="TC_transferFunds.tranferFundMethod(java.lang.String, java.lang.String)[pri:0, instance:Framework.com.parabankParasoft.productParabank.TC.TC_transferFunds@e320068]" name="tranferFundMethod" class="Framework.com.parabankParasoft.productParabank.TC.TC_transferFunds"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TC_transferFunds.tranferFundMethod(java.lang.String, java.lang.String)[pri:0, instance:Framework.com.parabankParasoft.productParabank.TC.TC_transferFunds@e320068]" name="tranferFundMethod" class="Framework.com.parabankParasoft.productParabank.TC.TC_transferFunds"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="LoginTests_firefox" duration-ms="76480" started-at="2018-09-22T05:06:31Z" finished-at="2018-09-22T05:07:47Z">
+      <class name="Framework.com.parabankParasoft.productParabank.TC.TC_transferFunds">
+        <test-method status="PASS" signature="setUpPathForEachCase()[pri:0, instance:Framework.com.parabankParasoft.productParabank.TC.TC_transferFunds@e320068]" name="setUpPathForEachCase" is-config="true" duration-ms="16" started-at="2018-09-22T05:06:31Z" finished-at="2018-09-22T05:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPathForEachCase -->
+        <test-method status="PASS" signature="tranferFundMethod(java.lang.String, java.lang.String)[pri:0, instance:Framework.com.parabankParasoft.productParabank.TC.TC_transferFunds@e320068]" name="tranferFundMethod" duration-ms="76414" started-at="2018-09-22T05:06:31Z" finished-at="2018-09-22T05:07:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://parabank.parasoft.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[LogLevel:info LogType: pass Message: Browser Invoked. Type: firefox]]>
+            </line>
+            <line>
+              <![CDATA[LogLevel:info LogType: pass Message: Navigation to Url successfull : http://parabank.parasoft.com/parabank/index.htm]]>
+            </line>
+            <line>
+              <![CDATA[LogLevel:info LogType: pass Message: User name is set with user: john]]>
+            </line>
+            <line>
+              <![CDATA[LogLevel:info LogType: pass Message: Password is set with user: demo]]>
+            </line>
+            <line>
+              <![CDATA[LogLevel:info LogType: pass Message: Clicked on Login button]]>
+            </line>
+            <line>
+              <![CDATA[LogLevel:info LogType: pass Message: Login Successfull]]>
+            </line>
+            <line>
+              <![CDATA[LogLevel:info LogType: pass Message: Entered amount is successfully-: ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tranferFundMethod -->
+        <test-method status="PASS" signature="closeTab()[pri:0, instance:Framework.com.parabankParasoft.productParabank.TC.TC_transferFunds@e320068]" name="closeTab" is-config="true" duration-ms="0" started-at="2018-09-22T05:07:47Z" finished-at="2018-09-22T05:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+      </class> <!-- Framework.com.parabankParasoft.productParabank.TC.TC_transferFunds -->
+    </test> <!-- LoginTests_firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="LoginTests_firefox(failed)" parallel="methods">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="http://parabank.parasoft.com"/>
+    <classes>
+      <class name="Framework.com.parabankParasoft.productParabank.TC.TC_transferFunds">
+        <methods>
+          <include name="closeTab"/>
+          <include name="tranferFundMethod" invocation-numbers="0"/>
+          <include name="setUpPathForEachCase"/>
+        </methods>
+      </class> <!-- Framework.com.parabankParasoft.productParabank.TC.TC_transferFunds -->
+    </classes>
+  </test> <!-- LoginTests_firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

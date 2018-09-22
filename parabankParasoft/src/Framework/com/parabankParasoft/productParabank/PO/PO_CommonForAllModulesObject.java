@@ -12,11 +12,11 @@ import org.openqa.selenium.support.How;
  * @author kushal
  *
  */
-public class TC_CommonForAllModulesObject {
+public class PO_CommonForAllModulesObject {
 
 	WebDriver driver;
 
-	public  TC_CommonForAllModulesObject(WebDriver driver)
+	public  PO_CommonForAllModulesObject(WebDriver driver)
 	{
 		this.driver= driver;
 	}
